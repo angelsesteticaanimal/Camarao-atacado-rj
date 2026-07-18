@@ -36,7 +36,7 @@ linear-gradient(135deg,var(--dark-red),var(--red) 58%,#ad282a);color:#fff}
 h1,h2{font-family:Georgia,"Times New Roman",serif}
 h1{font-size:clamp(50px,6vw,82px);line-height:.98;letter-spacing:-3px;margin:18px 0 24px}
 h1 em{font-style:normal;color:#ffd87e}
-.price-prefix{display:block;font-family:Inter,system-ui,sans-serif;font-size:.34em;line-height:1.2;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.82);margin:10px 0 5px}
+.price-block{display:inline-flex;flex-direction:column;align-items:flex-start;vertical-align:middle;margin-left:.08em}.price-prefix{display:block;font-family:Inter,system-ui,sans-serif;font-size:11px;line-height:1;letter-spacing:1.4px;text-transform:uppercase;font-weight:700;color:rgba(255,255,255,.62);margin-top:7px;margin-left:4px}
 .lead{font-size:20px;line-height:1.65;color:rgba(255,255,255,.88);max-width:680px}
 .numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}
 .numbers article{padding:18px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);border-radius:18px}
@@ -95,7 +95,7 @@ footer{padding:43px 0 24px;background:#271411;color:#fff}
 @media(max-width:620px){
   .container{width:min(100% - 24px,1140px)}
   .header-inner{min-height:68px}.brand span:last-child{display:none}.brand-logo{width:54px;height:54px}.top-whatsapp{font-size:13px;padding:10px 13px}
-  h1{font-size:48px;letter-spacing:-2px}.lead{font-size:17px}
+  h1{font-size:48px;letter-spacing:-2px}.price-block{display:flex;margin-left:0;margin-top:7px}.price-prefix{font-size:10px;margin-top:6px;margin-left:3px}.lead{font-size:17px}
   .numbers{grid-template-columns:1fr}.actions .btn{width:100%}
   .product-card span{right:7px}
   .benefits-grid{grid-template-columns:1fr}.benefits article{border-right:0;border-bottom:1px solid var(--line)}
