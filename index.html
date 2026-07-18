@@ -3,104 +3,202 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#861216">
-  <meta name="description" content="Camarão descascado no atacado a partir de R$ 55,00/kg. Pedidos a partir de 50 kg para o estado do Rio de Janeiro.">
-  <meta property="og:title" content="Camarão descascado no atacado — a partir de R$ 55/kg">
-  <meta property="og:description" content="Preço a partir de R$ 55/kg e pedido mínimo de 50 kg. Solicite orçamento pelo WhatsApp.">
-  <meta property="og:image" content="assets/anuncio-camarao.jpg">
+  <meta name="theme-color" content="#6f0b0e">
+
+  <title>Santos Alhos | Camarão e Filé de Tilápia no Atacado</title>
+  <meta name="description" content="Camarão descascado a partir de R$ 55,00/kg e filé de tilápia sem espinha a partir de R$ 32,99/kg. Pedidos no atacado para o estado do Rio de Janeiro.">
+  <meta property="og:title" content="Santos Alhos — Camarão e Filé de Tilápia no Atacado">
+  <meta property="og:description" content="Escolha o produto, calcule a quantidade e solicite orçamento pelo WhatsApp. Pedido mínimo de 50 kg por produto.">
+  <meta property="og:image" content="assets/produtos-santos-alhos.jpg">
   <meta property="og:type" content="website">
-  <title>Camarão Descascado no Atacado | Santos Alhos</title>
+
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
+  <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="#inicio">
-        <img class="brand-logo" src="assets/logo-santos-camarao.png" alt="Logo Santos Alhos Camarão de Qualidade">
-        <span><strong>Santos Alhos</strong><small>Distribuidor</small></span>
+      <a class="brand" href="#inicio" aria-label="Santos Alhos — início">
+        <img src="assets/logo-santos.png" alt="Logo Santos Alhos">
+        <span>
+          <strong>Santos Alhos</strong>
+          <small>Distribuidor de pescados</small>
+        </span>
       </a>
-      <a class="top-whatsapp" data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#produtos">Produtos</a>
+        <a href="#pedido">Orçamento</a>
+        <a href="#entrega">Entrega</a>
+      </nav>
+
+      <a class="header-whatsapp" data-whatsapp-link target="_blank" rel="noopener">
+        WhatsApp
+      </a>
     </div>
   </header>
 
-  <main>
-    <section class="hero" id="inicio">
+  <main id="inicio">
+    <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
           <span class="eyebrow">ATACADO • ESTADO DO RIO DE JANEIRO</span>
-          <h1>Camarão descascado <span class="price-block"><em>R$ 55,00/kg</em><small class="price-prefix">a partir de</small></span></h1>
-          <p class="lead">Venda para restaurantes, peixarias, mercados, buffets, hotéis, cozinhas industriais e distribuidores.</p>
+          <h1>Pescados selecionados para o seu negócio</h1>
+          <p>
+            Camarão descascado e filé de tilápia sem espinha, com orçamento
+            rápido e confirmação do pedido diretamente pelo WhatsApp.
+          </p>
 
-          <div class="numbers">
-            <article><small>Pedido mínimo</small><strong>50 kg</strong></article>
-            <article><small>Valor inicial do produto</small><strong>A partir de R$ 2.750,00</strong></article>
-            <article><small>Entrega</small><strong>Consulte a região</strong></article>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#produtos">Ver produtos</a>
+            <a class="button button-light" href="#pedido">Montar pedido</a>
           </div>
 
-          <div class="actions">
-            <a class="btn primary" href="#pedido">Solicitar orçamento</a>
-            <a class="btn secondary" data-whatsapp-link target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+          <div class="hero-highlights">
+            <div>
+              <strong>50 kg</strong>
+              <span>Pedido mínimo por produto</span>
+            </div>
+            <div>
+              <strong>RJ</strong>
+              <span>Entrega mediante consulta</span>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Confirmação comercial</span>
+            </div>
           </div>
-
-          <p class="note">Frete, disponibilidade, calibre, embalagem, peso líquido e prazo são confirmados antes do fechamento.</p>
         </div>
 
-        <div class="product-card">
-          <img src="assets/etiqueta-camarao.png"
-               alt="Etiqueta Santos Alhos para camarão descascado"
-               onerror="this.onerror=null;this.src='assets/placeholder-etiqueta.svg';">
-          <span>Preço de atacado</span>
+        <div class="hero-showcase" aria-label="Produtos Santos Alhos">
+          <img class="hero-card hero-card-back" src="assets/tilapia-3d.webp" alt="Filé de tilápia Santos Alhos">
+          <img class="hero-card hero-card-front" src="assets/camarao-3d.webp" alt="Camarão descascado Santos Alhos">
         </div>
       </div>
     </section>
 
-    <section class="benefits">
-      <div class="container benefits-grid">
-        <article><span>🦐</span><strong>Camarão descascado</strong><small>Produto voltado ao fornecimento comercial.</small></article>
-        <article><span>📦</span><strong>A partir de 50 kg</strong><small>Pedido mínimo para atendimento no atacado.</small></article>
-        <article><span>📍</span><strong>Estado do Rio de Janeiro</strong><small>Frete e região confirmados no orçamento.</small></article>
-        <article><span>💬</span><strong>Confirmação no WhatsApp</strong><small>Pedido só é fechado após sua aprovação.</small></article>
+    <section class="products-section" id="produtos">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow red">NOSSA LINHA</span>
+          <h2>Escolha um ou os dois produtos</h2>
+          <p>As artes abaixo apresentam o preço inicial e as principais condições de cada produto.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="assets/camarao-3d.webp" alt="Anúncio 3D do camarão descascado">
+            </div>
+            <div class="product-card-footer">
+              <div>
+                <span class="product-kicker">Camarão descascado</span>
+                <strong>R$ 55,00/kg</strong>
+                <small>a partir de</small>
+              </div>
+              <button class="select-product" type="button" data-select-product="shrimp">
+                Adicionar ao pedido
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image-wrap">
+              <img src="assets/tilapia-3d.webp" alt="Anúncio 3D do filé de tilápia sem espinha">
+            </div>
+            <div class="product-card-footer">
+              <div>
+                <span class="product-kicker">Tilápia pequena • filé sem espinha</span>
+                <strong>R$ 32,99/kg</strong>
+                <small>a partir de</small>
+              </div>
+              <button class="select-product" type="button" data-select-product="tilapia">
+                Adicionar ao pedido
+              </button>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="pedido">
-      <div class="container order-grid">
-        <div class="order-info">
-          <span class="eyebrow red">ORÇAMENTO RÁPIDO</span>
-          <h2>Informe a quantidade e envie o pedido</h2>
-          <p>O formulário prepara uma mensagem completa para o WhatsApp, reduzindo erros de quantidade, endereço e data.</p>
+    <section class="order-section" id="pedido">
+      <div class="container order-layout">
+        <div class="order-intro">
+          <span class="eyebrow red">MONTE O PEDIDO</span>
+          <h2>Informe as quantidades</h2>
+          <p>
+            Você pode pedir somente um produto ou combinar camarão e tilápia.
+            O valor exibido é inicial e não inclui frete.
+          </p>
 
-          <div class="calculator">
-            <label for="quantity">Quantidade em quilos</label>
-            <div class="quantity">
-              <button type="button" id="minus" aria-label="Diminuir">−</button>
-              <input id="quantity" type="number" min="50" step="10" value="50">
-              <button type="button" id="plus" aria-label="Aumentar">+</button>
-            </div>
-            <div class="estimated">
-              <span>Valor inicial estimado</span>
-              <strong id="estimatedTotal">R$ 2.750,00</strong>
-            </div>
-            <small>Cálculo baseado no preço mínimo anunciado. O valor final pode variar e não inclui frete.</small>
-          </div>
-
-          <div class="how">
-            <h3>Como funciona</h3>
-            <ol>
-              <li>Você envia os dados pelo WhatsApp.</li>
-              <li>Confirmamos produto, quantidade, frete e prazo.</li>
-              <li>O pedido só fica fechado depois da confirmação das duas partes.</li>
-            </ol>
+          <div class="order-rules">
+            <div><span>1</span><p>Selecione os produtos.</p></div>
+            <div><span>2</span><p>Informe no mínimo 50 kg de cada produto selecionado.</p></div>
+            <div><span>3</span><p>Envie os dados e confirme o valor final pelo WhatsApp.</p></div>
           </div>
         </div>
 
-        <form class="form-card" id="orderForm">
+        <div class="builder-card">
+          <div class="builder-products">
+            <label class="builder-product" id="shrimpRow">
+              <input type="checkbox" id="shrimpSelected">
+              <span class="builder-thumb">
+                <img src="assets/camarao-3d.webp" alt="">
+              </span>
+              <span class="builder-name">
+                <strong>Camarão descascado</strong>
+                <small>A partir de R$ 55,00/kg</small>
+              </span>
+              <span class="quantity-control">
+                <button type="button" data-minus="shrimp" aria-label="Diminuir camarão">−</button>
+                <input id="shrimpQty" type="number" min="50" step="10" value="50" inputmode="numeric" aria-label="Quantidade de camarão">
+                <button type="button" data-plus="shrimp" aria-label="Aumentar camarão">+</button>
+              </span>
+            </label>
+
+            <label class="builder-product" id="tilapiaRow">
+              <input type="checkbox" id="tilapiaSelected">
+              <span class="builder-thumb">
+                <img src="assets/tilapia-3d.webp" alt="">
+              </span>
+              <span class="builder-name">
+                <strong>Filé de tilápia</strong>
+                <small>Tilápia pequena, sem espinha • a partir de R$ 32,99/kg</small>
+              </span>
+              <span class="quantity-control">
+                <button type="button" data-minus="tilapia" aria-label="Diminuir tilápia">−</button>
+                <input id="tilapiaQty" type="number" min="50" step="10" value="50" inputmode="numeric" aria-label="Quantidade de tilápia">
+                <button type="button" data-plus="tilapia" aria-label="Aumentar tilápia">+</button>
+              </span>
+            </label>
+          </div>
+
+          <div class="estimate-box">
+            <span>Valor inicial estimado</span>
+            <strong id="estimatedTotal">Selecione um produto</strong>
+            <small id="estimateNote">Frete e condições comerciais serão confirmados pelo WhatsApp.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <div class="container form-layout">
+        <div class="form-copy">
+          <span class="eyebrow">SOLICITE O ORÇAMENTO</span>
+          <h2>Envie o pedido pronto para o WhatsApp</h2>
+          <p>
+            Preencha os dados para receber a confirmação de disponibilidade,
+            embalagem, frete, prazo e valor final.
+          </p>
+        </div>
+
+        <form class="order-form" id="orderForm">
           <div class="field">
             <label for="business">Estabelecimento ou empresa</label>
             <input id="business" name="business" required placeholder="Ex.: Restaurante Mar Azul">
           </div>
 
-          <div class="field-row">
+          <div class="field-grid">
             <div class="field">
               <label for="contact">Responsável</label>
               <input id="contact" name="contact" required placeholder="Nome">
@@ -111,7 +209,7 @@
             </div>
           </div>
 
-          <div class="field-row">
+          <div class="field-grid">
             <div class="field">
               <label for="city">Cidade</label>
               <input id="city" name="city" required placeholder="Cidade no RJ">
@@ -122,13 +220,13 @@
             </div>
           </div>
 
-          <div class="field-row">
+          <div class="field-grid">
             <div class="field">
               <label for="deliveryDate">Data desejada</label>
               <input id="deliveryDate" name="deliveryDate" type="date" required>
             </div>
             <div class="field">
-              <label for="frequency">Tipo de compra</label>
+              <label for="frequency">Frequência da compra</label>
               <select id="frequency" name="frequency">
                 <option>Compra única</option>
                 <option>Compra semanal</option>
@@ -140,51 +238,79 @@
 
           <div class="field">
             <label for="notes">Observações</label>
-            <textarea id="notes" name="notes" rows="4" placeholder="Calibre, embalagem, nota fiscal ou outras necessidades."></textarea>
+            <textarea id="notes" name="notes" rows="4" placeholder="Embalagem, nota fiscal, horário de entrega ou outras informações."></textarea>
           </div>
 
           <label class="consent">
             <input type="checkbox" required>
-            <span>Autorizo o envio desses dados pelo WhatsApp para receber o orçamento.</span>
+            <span>Autorizo o envio destes dados pelo WhatsApp para receber o orçamento.</span>
           </label>
 
-          <button class="btn primary full" type="submit">Enviar pedido para o WhatsApp</button>
+          <button class="button button-gold button-full" type="submit">
+            Enviar pedido pelo WhatsApp
+          </button>
+
+          <p class="form-warning" id="formWarning" role="alert"></p>
         </form>
       </div>
     </section>
 
-    <section class="section commercial">
+    <section class="delivery-section" id="entrega">
       <div class="container">
-        <span class="eyebrow red">ATENDIMENTO COMERCIAL</span>
-        <h2>Ideal para compras recorrentes</h2>
-        <div class="commercial-grid">
-          <article><strong>Restaurantes e buffets</strong><p>Planeje compras para eventos, cardápios e alta temporada.</p></article>
-          <article><strong>Peixarias e mercados</strong><p>Consulte fornecimento para revenda e reposição de estoque.</p></article>
-          <article><strong>Hotéis e cozinhas industriais</strong><p>Solicite orçamento conforme consumo e frequência.</p></article>
+        <div class="section-heading centered">
+          <span class="eyebrow red">ATENDIMENTO COMERCIAL</span>
+          <h2>Condições confirmadas antes do fechamento</h2>
         </div>
-      </div>
-    </section>
 
-    <section class="section final-cta">
-      <div class="container final-card">
-        <div>
-          <span class="eyebrow">FALE DIRETAMENTE</span>
-          <h2>Precisa de 50 kg ou mais?</h2>
-          <p>Envie a cidade, o bairro, a quantidade e a data desejada.</p>
+        <div class="info-grid">
+          <article>
+            <span>❄️</span>
+            <strong>Produto congelado</strong>
+            <p>As condições de conservação e transporte são informadas no orçamento.</p>
+          </article>
+          <article>
+            <span>📦</span>
+            <strong>Pedido no atacado</strong>
+            <p>Mínimo de 50 kg para cada produto selecionado.</p>
+          </article>
+          <article>
+            <span>🚚</span>
+            <strong>Entrega no Rio de Janeiro</strong>
+            <p>Cidade, bairro, data, disponibilidade e frete são confirmados previamente.</p>
+          </article>
+          <article>
+            <span>💬</span>
+            <strong>Confirmação pelo WhatsApp</strong>
+            <p>O pedido somente fica fechado após a aprovação das condições pelas duas partes.</p>
+          </article>
         </div>
-        <a class="btn primary" data-whatsapp-link target="_blank" rel="noopener">Solicitar orçamento</a>
       </div>
     </section>
   </main>
 
+  <a class="floating-whatsapp" data-whatsapp-link target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <span>WhatsApp</span>
+  </a>
+
   <footer>
     <div class="container footer-grid">
-      <div class="footer-brand"><img class="footer-logo" src="assets/logo-santos-camarao.png" alt="Logo Santos Alhos"><div><strong>Santos Alhos — Distribuidor</strong><p>Camarão descascado no atacado.</p></div></div>
-      <div><a data-whatsapp-link target="_blank" rel="noopener">WhatsApp: 21 99631-3915</a><p>Atendimento no estado do Rio de Janeiro.</p></div>
+      <div class="footer-brand">
+        <img src="assets/logo-santos.png" alt="Logo Santos Alhos">
+        <div>
+          <strong>Santos Alhos</strong>
+          <p>Distribuidor de camarão e filé de tilápia.</p>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <a data-whatsapp-link target="_blank" rel="noopener">21 99631-3915</a>
+        <p>Atendimento comercial no estado do Rio de Janeiro.</p>
+      </div>
     </div>
+
     <div class="container footer-bottom">
       <span>© <span id="year"></span> Santos Alhos.</span>
-      <span>Preço e condições sujeitos à confirmação.</span>
+      <span>Preços anunciados “a partir de”. Frete e condições sujeitos à confirmação.</span>
     </div>
   </footer>
 
