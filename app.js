@@ -26,7 +26,7 @@ function generalMessage() {
   const campaign = query.get("utm_campaign") || "acesso_direto";
   return [
     "Olá! Gostaria de solicitar um orçamento de camarão descascado no atacado.",
-    "Preço anunciado: R$ 55,00/kg.",
+    "Preço anunciado: a partir de R$ 55,00/kg.",
     "Pedido mínimo: 50 kg.",
     `Origem: ${source} / ${campaign}.`
   ].join("\n");
@@ -66,12 +66,12 @@ orderForm.addEventListener("submit", event => {
     `Cidade: ${form.get("city")}`,
     `Bairro: ${form.get("district")}`,
     `Quantidade: ${quantity} kg`,
-    `Valor estimado do produto: ${money(total)}`,
+    `Valor inicial estimado do produto: a partir de ${money(total)}`,
     `Data desejada: ${form.get("deliveryDate")}`,
     `Tipo de compra: ${form.get("frequency")}`,
     `Observações: ${form.get("notes") || "Não informado"}`,
     "",
-    "Aguardo a confirmação de disponibilidade, calibre, embalagem, peso líquido, frete, prazo e valor final.",
+    "Estou ciente de que o preço anunciado é a partir de R$ 55,00/kg e aguardo a confirmação de disponibilidade, calibre, embalagem, peso líquido, frete, prazo e valor final.",
     `Campanha: ${query.get("utm_campaign") || "acesso_direto"}`
   ].join("\n");
 

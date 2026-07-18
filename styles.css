@@ -36,6 +36,7 @@ linear-gradient(135deg,var(--dark-red),var(--red) 58%,#ad282a);color:#fff}
 h1,h2{font-family:Georgia,"Times New Roman",serif}
 h1{font-size:clamp(50px,6vw,82px);line-height:.98;letter-spacing:-3px;margin:18px 0 24px}
 h1 em{font-style:normal;color:#ffd87e}
+.price-prefix{display:block;font-family:Inter,system-ui,sans-serif;font-size:.34em;line-height:1.2;letter-spacing:1.8px;text-transform:uppercase;color:rgba(255,255,255,.82);margin:10px 0 5px}
 .lead{font-size:20px;line-height:1.65;color:rgba(255,255,255,.88);max-width:680px}
 .numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}
 .numbers article{padding:18px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);border-radius:18px}
