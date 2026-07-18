@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" viewBox="0 0 1800 1000">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#56090c"/><stop offset="1" stop-color="#a82024"/></linearGradient></defs>
+<rect width="1800" height="1000" rx="60" fill="url(#g)"/>
+<circle cx="900" cy="430" r="235" fill="none" stroke="#f1c15e" stroke-width="17" opacity=".85"/>
+<text x="900" y="370" text-anchor="middle" fill="#ffd77e" font-size="125" font-family="Georgia" font-weight="bold">SANTOS ALHOS</text>
+<text x="900" y="500" text-anchor="middle" fill="#fff" font-size="72" font-family="Arial" font-weight="bold">CAMARÃO DESCASCADO</text>
+<text x="900" y="620" text-anchor="middle" fill="#ffd77e" font-size="55" font-family="Arial">R$ 55,00/kg • mínimo 50 kg</text>
+<text x="900" y="720" text-anchor="middle" fill="#fff" opacity=".8" font-size="35" font-family="Arial">Inserir: assets/etiqueta-camarao.png</text>
+</svg>
