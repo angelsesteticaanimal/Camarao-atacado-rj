@@ -16,7 +16,7 @@ const PRODUCTS = {
 };
 
 const MINIMUM_KG = 50;
-const WHATSAPP_NUMBER = "5521996313915";
+const WHATSAPP_NUMBER = "5522920020824";
 const totalElement = document.querySelector("#estimatedTotal");
 const noteElement = document.querySelector("#estimateNote");
 const form = document.querySelector("#orderForm");

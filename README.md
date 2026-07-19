@@ -1,65 +1,57 @@
-# Site do camarão — pedidos pelo WhatsApp
+# Site Santos Alhos — Camarão e Filé de Tilápia
 
-Esta versão foi simplificada para a primeira etapa comercial:
+Versão V6 redesenhada a partir das duas artes 3D aprovadas.
 
-- preço: R$ 55,00/kg;
-- pedido mínimo: 50 kg;
-- valor mínimo do produto: R$ 2.750,00;
-- cálculo automático por quantidade;
-- formulário de orçamento;
-- envio do pedido preenchido para o WhatsApp 21 99631-3915;
-- confirmação final feita manualmente pelo WhatsApp;
-- layout para celular;
-- parâmetros UTM para identificar anúncios.
+## Produtos
 
-## 1. Inserir a etiqueta final
+### Camarão descascado
+- preço inicial: R$ 55,00/kg;
+- expressão “a partir de”;
+- pedido mínimo: 50 kg.
 
-Coloque a etiqueta dentro da pasta `assets` com o nome exato:
+### Filé de tilápia
+- tilápia pequena;
+- filé sem espinha;
+- preço inicial: R$ 32,99/kg;
+- expressão “a partir de”;
+- pedido mínimo: 50 kg.
 
-`etiqueta-camarao.png`
+## Funcionamento
 
-Para o compartilhamento ficar bonito no Facebook, Instagram e WhatsApp, coloque também:
+O cliente pode:
 
-`assets/anuncio-camarao.jpg`
+- escolher camarão;
+- escolher tilápia;
+- escolher os dois produtos;
+- informar uma quantidade diferente para cada produto;
+- visualizar o valor inicial estimado;
+- preencher os dados de entrega;
+- enviar o pedido completo ao WhatsApp 22 92002-0824.
 
-Tamanho recomendado: 1200 × 630 px.
+## Atualização no GitHub
 
-## 2. Publicar no GitHub Pages
+Substitua os arquivos da raiz:
 
-1. Crie um repositório chamado `camarao-atacado-rj`.
-2. Envie todos os arquivos deste pacote.
-3. Abra `Settings`.
-4. Entre em `Pages`.
-5. Em `Build and deployment`, escolha `Deploy from a branch`.
-6. Selecione `main` e `/ (root)`.
-7. Salve.
+- `index.html`
+- `styles.css`
+- `app.js`
 
-## 3. Link rastreado para o anúncio
+Envie ou substitua na pasta `assets`:
 
-Exemplo:
+- `camarao-3d.webp`
+- `tilapia-3d.webp`
+- `produtos-santos-alhos.jpg`
+- `logo-santos.png`
 
-`https://SEU-USUARIO.github.io/camarao-atacado-rj/?utm_source=meta&utm_medium=paid_social&utm_campaign=camarao_atacado_rj&utm_content=imagem_01`
+Depois confirme em `Commit changes`. O GitHub Pages publicará a nova versão automaticamente.
 
-## 4. Confirmação do pedido
+## Observação comercial
 
-O formulário não registra venda automaticamente.
-
-O pedido é considerado fechado somente depois que vendedor e comprador confirmarem pelo WhatsApp:
-
-- produto;
-- quantidade;
-- calibre;
-- embalagem;
-- peso líquido;
-- frete;
-- data;
-- endereço;
-- valor total;
-- forma de pagamento.
+Os valores exibidos são iniciais, com a expressão “a partir de”.
+Frete, disponibilidade, embalagem, peso líquido, prazo e valor final são confirmados pelo WhatsApp.
 
 
-## Arquivos já inseridos automaticamente
-
-- `assets/etiqueta-camarao.png` — etiqueta final enviada pelo usuário;
-- `assets/logo-santos-camarao.png` — logo enviada pelo usuário;
-- `assets/anuncio-camarao.jpg` — imagem de compartilhamento pronta para redes sociais.
+## Atualização V7 — novo WhatsApp comercial
+- Telefone exibido: `22 92002-0824`
+- Número completo: `+55 22 92002-0824`
+- Link direto: `https://wa.me/5522920020824`
